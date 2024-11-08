@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vein:dead_log"
+        }
+    ],
+    "result": {
+        "id": "vein:dead_plank",
+        "count": 4
+    }
+}

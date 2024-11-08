@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "vein",
+  "version": "${version}",
+  "name": "vein",
+  "description": "Adds many features such as new blocks, mobs and biomes",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vein/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "work.constt.vein.utils.DataGeneration"
+    ],
+    "client": [
+      "work.constt.vein.client.VeinClient"
+    ],
+    "main": [
+      "work.constt.vein.Vein"
+    ]
+  },
+  "mixins": [
+    "vein.mixins.json",
+    {
+      "config": "vein.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

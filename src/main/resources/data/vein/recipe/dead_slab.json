@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "vein:dead_plank"
+    }
+  },
+  "result": {
+    "id": "vein:dead_slab",
+    "count": 6
+  }
+}

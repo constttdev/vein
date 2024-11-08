@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vein:block/dead_slab"
+    },
+    "type=double": {
+      "model": "vein:block/dead_plank"
+    },
+    "type=top": {
+      "model": "vein:block/dead_slab_top"
+    }
+  }
+}
